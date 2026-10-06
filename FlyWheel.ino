@@ -259,7 +259,9 @@ void updateServo(int target) {
 }
 
 void updateRPM() {
-  // DESCRIPTION
+  // TODO Description
+  //
+  // Ultimately sets `smoothedRPM` for use elsewhere
   //
   // `newRev` (bool) and `revTime` (unsigned long, microseconds) are set by hallISR()
   
